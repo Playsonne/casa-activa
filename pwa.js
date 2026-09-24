@@ -1,7 +1,7 @@
-/* CASA ACTIVA PWA 1.3.0. No libraries, analytics or data uploads. */
+/* CASA ACTIVA PWA 1.4.0. No libraries, analytics or data uploads. */
 (() => {
  'use strict';
- const VERSION='1.3.0';
+ const VERSION='1.4.0';
  const base=new URL('./',document.baseURI);
  const status=document.getElementById('pwa-status');
  const statusText=document.getElementById('pwa-status-text');
