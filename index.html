@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#244f3f"><meta name="description" content="Casa Activa: rutinas y ejercicios en casa, hábitos saludables y progreso local."><title>CASA ACTIVA · Tu bienestar, en casa</title><link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./pwa.css">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Casa Activa">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="application-name" content="Casa Activa">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+</head><body>
+<a class="skip" href="#page">Ir al contenido</a>
+<aside class="sidebar" aria-label="Navegación principal">
+<button class="brand" data-page="home" aria-label="Casa Activa, inicio"><span class="brand-mark" data-icon="leaf"></span><span class="brand-name">casa activa<span>Tu bienestar, en casa</span></span></button>
+<div class="side-label">MI ESPACIO</div><nav class="navigation" id="side-nav" aria-label="Secciones"></nav>
+<div class="side-note"><span data-icon="spark"></span><h3>Poco a poco,<br>cada vez mejor.</h3><p>No se trata de hacerlo perfecto. Se trata de volver.</p><button class="link-btn" data-action="article" data-id="balance">Un hábito a la vez <span data-icon="arrow"></span></button></div>
+<button class="nav-btn" data-action="settings"><span data-icon="settings"></span>Preferencias</button>
+</aside>
+<div class="main-shell"><header class="topbar">
+<button class="brand mobile-brand" data-page="home" aria-label="Casa Activa, inicio"><span class="brand-mark" data-icon="leaf"></span><span class="brand-name">casa activa<span>Tu bienestar, en casa</span></span></button>
+<div class="topbar-date"><span data-icon="calendar"></span><span id="date-label"></span></div>
+<div class="topbar-right"><button id="storage" class="storage-pill" data-action="privacy" aria-label="Información del guardado local"></button><button class="icon-btn" data-action="settings" aria-label="Preferencias"><span data-icon="settings"></span></button><span class="avatar" id="avatar" aria-hidden="true">CA</span></div>
+</header>
+<section class="pwa-toolbar" aria-label="Instalación y uso sin conexión">
+  <button class="pwa-status" id="pwa-status" data-pwa-action="help" title="Estado de la app y ayuda">
+    <span class="pwa-dot" aria-hidden="true"></span>
+    <span id="pwa-status-text" role="status" aria-live="polite">Preparando la app…</span>
+  </button>
+  <div class="pwa-actions">
+    <button class="btn btn-light pwa-button" data-pwa-action="share" aria-label="Compartir el enlace de Casa Activa"><span data-icon="external"></span><span>Compartir</span></button>
+    <button class="btn btn-primary pwa-button" id="pwa-install" data-pwa-action="install"><span data-icon="download"></span><span>Instalar app</span></button>
+    <button class="btn btn-lime pwa-button" id="pwa-update" data-pwa-action="update" hidden><span data-icon="repeat"></span><span>Actualizar</span></button>
+  </div>
+</section><main class="page" id="page" tabindex="-1"></main></div>
+<nav class="bottom-nav" id="bottom-nav" aria-label="Secciones de la app"></nav>
+<dialog id="modal" aria-labelledby="modal-title"></dialog><dialog id="player" class="timer-player" aria-labelledby="player-title"></dialog><dialog id="zoom" aria-labelledby="zoom-title"></dialog>
+<dialog id="pwa-dialog" aria-labelledby="pwa-dialog-title"></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div><noscript><p style="padding:30px">Activa JavaScript para utilizar CASA ACTIVA. Esta aplicación funciona sin instalar nada y no envía tus datos de entrenamiento.</p></noscript>
+<script defer src="./data.js"></script>
+<script defer src="./illustrations.js"></script>
+<script defer src="./realistic.js"></script>
+<script defer src="./app.js"></script>
+<script defer src="./pwa.js"></script>
+</body></html>

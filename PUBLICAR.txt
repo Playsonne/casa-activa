@@ -1,0 +1,52 @@
+CASA ACTIVA · PWA v1.2 — PUBLICACIÓN EN GITHUB PAGES
+
+ESTADO: preparada, todavía no publicada.
+
+1. En tu cuenta Playsonne, crea un repositorio llamado casa-activa.
+   Elige Public y activa Add README. Pulsa Create repository.
+
+2. Descomprime Casa_Activa_PWA_v1_2.zip.
+   En el repositorio: Add file → Upload files.
+   Sube todos los archivos y carpetas descomprimidos, NO el ZIP.
+   index.html debe quedar directamente en la raíz del repositorio.
+   No subas copias JSON de tu progreso ni datos personales.
+   Confirma la subida a la rama main.
+
+3. Settings → Pages → Source: Deploy from a branch.
+   Branch: main. Folder: /(root). Save.
+
+4. Cuando GitHub confirme el despliegue, abre Visit site.
+   Enlace previsto con la dirección estándar:
+   https://playsonne.github.io/casa-activa/
+   Ese enlace no está activo por el mero hecho de aparecer en estas instrucciones.
+
+5. Abre la web con conexión y espera «Lista para usar sin conexión».
+   Prueba una ficha, una rutina y un favorito. Cierra y vuelve a abrir.
+   Después activa modo avión y comprueba la app.
+   Las referencias y los vídeos externos requieren internet.
+
+6. Instala desde Chrome en Android con «Instalar app» o el menú del navegador.
+   En iPhone/iPad: Safari → Compartir → Añadir a pantalla de inicio.
+   En PC: icono de instalación o menú de Chrome/Edge.
+   También funciona como web sin instalarla.
+
+PROGRESO ANTERIOR
+En la app HTML o Sites anterior: Preferencias → Exportar.
+En la PWA publicada: Preferencias → Importar.
+No hay sincronización automática entre móvil y PC.
+No subas las copias personales al repositorio público.
+
+IMÁGENES
+Se mantiene la versión visual 1.1: 9 ejercicios con imágenes realistas
+creadas con IA y 9 con los esquemas anteriores.
+
+ACTUALIZACIONES FUTURAS
+Después de editar los archivos, ejecuta:
+python tools/update_cache.py
+Sube los archivos modificados y sw.js en el mismo cambio.
+El paquete actual ya tiene la caché preparada: no hay que ejecutar nada
+para la primera publicación.
+
+DETALLES Y REFERENCIAS
+Lee README.md, incluido en el ZIP. La instalación real y la prueba sin
+conexión definitiva deben verificarse después de publicar en GitHub Pages.

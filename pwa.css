@@ -1,0 +1,26 @@
+/* CASA ACTIVA — instalación, actualizaciones y conexión. */
+[hidden]{display:none!important}
+.pwa-toolbar{max-width:1336px;margin:0 auto;padding:14px 42px 0;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.pwa-status{display:inline-flex;align-items:center;gap:8px;min-height:44px;max-width:100%;padding:4px 2px;font-size:11px;color:var(--muted);text-align:left}
+.pwa-dot{width:7px;height:7px;flex:none;border-radius:50%;background:#9BA59B}
+.pwa-status.ready .pwa-dot{background:var(--green2)}
+.pwa-status.offline .pwa-dot,.pwa-status.warning .pwa-dot{background:#A36D28}
+.pwa-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+.pwa-button{min-height:42px;padding:10px 14px;font-size:11px;white-space:nowrap}
+.pwa-button .icon{width:16px;height:16px}
+#pwa-dialog{width:min(560px,calc(100% - 24px));max-height:88dvh;border:1px solid var(--line);background:var(--bg);border-radius:24px;padding:0;color:var(--text);overflow:auto}
+#pwa-dialog::backdrop{background:#183C3470;backdrop-filter:blur(4px)}
+#pwa-dialog .pwa-dialog-body{padding:22px}
+#pwa-dialog p{margin:0 0 14px;font-size:14px;color:var(--muted);line-height:1.65}
+#pwa-dialog h3{margin:22px 0 8px;font-size:15px}
+#pwa-dialog code{overflow-wrap:anywhere;font-size:12px}
+#pwa-dialog .pwa-device{padding:14px 16px;background:var(--paper);border:1px solid var(--line);border-radius:14px;margin-bottom:10px}
+#pwa-dialog .pwa-device strong{display:block;font-size:13px;margin-bottom:4px}
+#pwa-dialog .pwa-device p{margin:0;font-size:12px}
+#pwa-dialog .pwa-link{width:100%;padding:12px;margin:6px 0 12px;background:var(--paper);color:var(--text);border:1px solid var(--line);border-radius:10px;font-size:13px}
+#pwa-dialog .pwa-dialog-actions{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:10px;margin-top:20px}
+#pwa-dialog .pwa-version{font-size:11px;margin-top:24px;padding-top:14px;border-top:1px solid var(--line)}
+@media(max-width:1000px){.pwa-toolbar{padding-left:25px;padding-right:25px}}
+@media(max-width:720px){.pwa-toolbar{padding:12px 18px 0;gap:4px;flex-wrap:wrap}.pwa-status{font-size:10px;min-height:28px;flex:1 0 100%}.pwa-actions{justify-content:flex-start;width:100%;gap:7px}.pwa-button{flex:1;min-height:44px;padding:10px 12px;font-size:12px}.pwa-toolbar+.page{padding-top:24px}.main-shell .topbar{padding-top:env(safe-area-inset-top)}#pwa-dialog{border-radius:21px}#pwa-dialog input{font-size:16px}}
+@media(max-width:370px){.pwa-toolbar{padding-left:14px;padding-right:14px}.pwa-button{padding:9px;font-size:11px}}
+@media print{.pwa-toolbar,#pwa-dialog{display:none!important}}

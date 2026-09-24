@@ -1,0 +1,110 @@
+{
+  "squat": [
+    {
+      "file": "squat_0.webp",
+      "width": 396,
+      "height": 960
+    },
+    {
+      "file": "squat_1.webp",
+      "width": 396,
+      "height": 960
+    }
+  ],
+  "dbrow": [
+    {
+      "file": "dbrow_0.webp",
+      "width": 470,
+      "height": 935
+    },
+    {
+      "file": "dbrow_1.webp",
+      "width": 470,
+      "height": 935
+    }
+  ],
+  "floorpress": [
+    {
+      "file": "floorpress_0.webp",
+      "width": 680,
+      "height": 500
+    },
+    {
+      "file": "floorpress_1.webp",
+      "width": 680,
+      "height": 500
+    }
+  ],
+  "curl": [
+    {
+      "file": "curl_0.webp",
+      "width": 600,
+      "height": 960
+    },
+    {
+      "file": "curl_1.webp",
+      "width": 600,
+      "height": 960
+    }
+  ],
+  "press": [
+    {
+      "file": "press_0.webp",
+      "width": 404,
+      "height": 960
+    },
+    {
+      "file": "press_1.webp",
+      "width": 404,
+      "height": 960
+    }
+  ],
+  "rower": [
+    {
+      "file": "rower_0.webp",
+      "width": 680,
+      "height": 747
+    },
+    {
+      "file": "rower_1.webp",
+      "width": 680,
+      "height": 747
+    }
+  ],
+  "bike": [
+    {
+      "file": "bike_0.webp",
+      "width": 546,
+      "height": 960
+    },
+    {
+      "file": "bike_1.webp",
+      "width": 546,
+      "height": 960
+    }
+  ],
+  "elliptical": [
+    {
+      "file": "elliptical_0.webp",
+      "width": 651,
+      "height": 960
+    },
+    {
+      "file": "elliptical_1.webp",
+      "width": 651,
+      "height": 960
+    }
+  ],
+  "bridge": [
+    {
+      "file": "bridge_0.webp",
+      "width": 680,
+      "height": 341
+    },
+    {
+      "file": "bridge_1.webp",
+      "width": 680,
+      "height": 341
+    }
+  ]
+}
