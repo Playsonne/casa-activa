@@ -8,7 +8,7 @@ import hashlib
 import json
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = '1.2.0'
+VERSION = '1.3.0'
 
 def main() -> None:
     files = ['index.html', 'styles.css', 'pwa.css', 'data.js', 'illustrations.js',
